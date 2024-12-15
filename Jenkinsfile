@@ -11,7 +11,7 @@ deleteDir()
 }
 stage ("Clone repo"){
 steps {
-sh "git clone https://github.com/MaBouz/expl-spring.g
+sh "git clone https://github.com/RNessrine/sonartest.git
 }
 }
 stage('Build') {
